@@ -1,7 +1,7 @@
-<div style="text-align: center; width: 100%">
-<img src="logo.png" width="200">
- <h1> React Customerly</h1>
-</div>
+<p align="center">
+ <img src="logo.png" width="150">
+</p>
+<h1> React Customerly</h1>
 A simple react library to configure Customerly on your app in a simple way
 
 # Installation
@@ -31,7 +31,7 @@ customerly.initialize(app_id, mWidget, attachments, screenshot, lang);
 
 - `lang`: It's where you control which language your live chat will be - the available ones are:  `'it'|'en'|'fr'|'es'`
 
-<br>
+---
 <br>
 You can learn more from [How to control the live chat widget custom features
 ](https://docs.customerly.help/api/how-to-control-the-live-chat-widget-custom-features) of Customerly docs.
