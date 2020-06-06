@@ -1,6 +1,6 @@
 {
   "name": "react-customerly",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "A simple lib to simplify customerly implementation on react apps",
   "main": "index.js",
   "scripts": {

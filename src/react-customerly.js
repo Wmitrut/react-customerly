@@ -8,15 +8,15 @@ module.exports = function (app_id, mWidget = true, attachments = false, screensh
     };
     !(function() {
         function e() {
-            var e = t.createElement("script");
+            let e = t.createElement("script");
             (e.type = "text/javascript"),
                 (e.async = !0),
                 (e.src =
                     "https://widget.customerly.io/widget/"+app_id);
-            var r = t.getElementsByTagName("script")[0];
+            let r = t.getElementsByTagName("script")[0];
             r.parentNode.insertBefore(e, r);
         }
-        var r = window,
+        let r = window,
             t = document,
             n = function() {
                 n.c(arguments);

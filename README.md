@@ -12,24 +12,26 @@ npm install react-customerly --save
 or 
 
 ```bash
-yarn add react-customerly --save
+yarn add react-customerly
 ```
 
 # Use / Example
 ```javascript
 import { customerly } from 'react-customerly';
 
-customerly.initialize(app_id, mWidget, attachments, screenshot, lang);
+customerly.initialize(app_id);
 ```
-- `app_id`: Stands for the ID (project ID or App ID) provided by Customerly to config the Live Chat on your website.
+- `app_id`*: Stands for the ID (project ID or App ID) provided by Customerly to config the Live Chat on your website -  *(*required*).
 
-- `mWidget`: If you want to have your widget on the mobile version, you have to provide this boolean flag.
+### Other params:
 
-- `attachments`: Another boolean flag. It's intended to active the attachment feature to your chat.
+- `mWidget`: If you want to hide(false) or show(true) it your widget on the mobile version, you have to provide this boolean flag - **true** as default.
 
-- `screenshot`: Other boolean flag that controls the availability of the attachment feature.
+- `attachments`: Another boolean flag. It's intended to active the attachment feature to your chat - **false** as default.
 
-- `lang`: It's where you control which language your live chat will be - the available ones are:  `'it'|'en'|'fr'|'es'`
+- `screenshot`: Other boolean flag that controls the availability of the attachment feature - **false** as default.
+
+- `lang`: It's where you control which language your live chat will be - the available ones are:  `'it'|'en'|'fr'|'es'`- **`en`** as default.
 
 ---
 <br>
