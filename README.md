@@ -4,7 +4,7 @@
 <h1> React Customerly</h1>
 A simple react library to configure Customerly on your app in a simple way
 
-![Version 1.1.0](https://img.shields.io/badge/Version-1.1.0-brightgreen)
+![Version 1.1.1](https://img.shields.io/badge/Version-1.1.1-brightgreen)
 
 # Installation
 ```bash
